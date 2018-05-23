@@ -18,3 +18,8 @@ without client hex-address.(old format)
  
 This patch for emergency use.
 
+## Requirement
+
+- bind 9.11.3
+
+It may be able to use for other versions.
