@@ -1,0 +1,13 @@
+--- bin/named/client.c.org	2018-03-08 20:55:28.000000000 +0000
++++ bin/named/client.c	2018-05-23 03:28:02.631000048 +0000
+@@ -3775,8 +3775,8 @@
+ 	}
+ 
+ 	isc_log_write(ns_g_lctx, category, module, level,
+-		      "client @%p %s%s%s%s%s%s%s%s: %s",
+-		      client, peerbuf, sep1, signer, sep2, qname, sep3,
++		      "client %s%s%s%s%s%s%s%s: %s",
++		      peerbuf, sep1, signer, sep2, qname, sep3,
+ 		      sep4, viewname, msgbuf);
+ }
+ 
